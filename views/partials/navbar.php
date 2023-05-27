@@ -83,7 +83,7 @@
                     <li class="text-md mb-4"><a href="<?php echo __ROOT__; ?>#contacto">Terrazas</a></li>
                 </ul>
             </div>
-    
+
             <div class="flex flex-col">
                 <div class="flex items-center mb-4">
                     <i class="fa-regular fa-clock text-orange mr-4"></i>
@@ -104,7 +104,7 @@
                     </h4>
                 </div>
             </div>
-    
+
         </div>
     </nav>
 </div>
