@@ -91,6 +91,43 @@ html {
     background-color: #F07A39 !important;
 }
 
+.nosotros__info {
+    position: relative !important;
+}
+
+.nosotros__info img {
+    width: 90%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 520px;
+}
+
+.nosotros__info > div {
+    padding: 32px 24px;
+    width: 70%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+@media (max-width: 640px) {
+    .nosotros__info img {
+        display: none;
+    }
+    
+    .nosotros__info > div {
+        width: 100%;
+        position: relative;
+        top: 0%;
+        transform: translateY(0%);
+        z-index: 1;
+    }
+}
+
 @media (max-width: 728px) {
     .index__hero--content {
         width: 100%;

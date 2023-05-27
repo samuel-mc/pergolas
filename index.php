@@ -11,6 +11,9 @@ define('__ROOT__', "http://localhost/pergolas/");
 Flight::route('/', function () {
     Flight::render('index.php');
 });
+Flight::route('/nosotros', function () {
+    Flight::render('nosotros.php');
+});
 
 #404
 Flight::map('notFound', function () {
