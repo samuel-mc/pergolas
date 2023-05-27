@@ -12,7 +12,7 @@
             </div>
         </div>
     </section>
-    <section class="max-w-7xl mx-auto py-10">
+    <section class="max-w-7xl mx-auto py-20">
         <div class="grid grid-cols-1 gap-4 md:gap-10 md:grid-cols-2">
             <img src="<?php echo __ROOT__; ?>/public/img/homeCompromiso.png" class="w-full">
             <div class="flex justify-center flex-col p-8">
@@ -31,7 +31,7 @@
     </section>
 
     <section class="py-20 bg-ultralight__grey">
-        <div class="max-w-7xl mx-auto text-center p-8">
+        <div class="max-w-7xl mx-auto text-center">
             <h3 class="bg-light__grey w-fit border-l-8 border-orange py-1 px-2 mb-4 mx-auto">
                 Que es lo que hacemos
             </h3>
@@ -55,15 +55,11 @@
                     <img src="<?php echo __ROOT__; ?>/public/img/homeServiciosCheck.png" class="w-16">
                     <h4 class="text-md font-bold">Presupuestos completos.</h4>
                 </div>
-
             </div>
         </div>
     </section>
 
-    <section>
-        <p>// Aca va nuestros proyectos </p>
-    </section>
-
+    <?php include 'components/nuestrosProyectos.php'; ?>
     <?php include 'components/galeria.php'; ?>
     <?php include 'components/form.php'; ?>
 
