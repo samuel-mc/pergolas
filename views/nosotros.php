@@ -74,5 +74,39 @@
         </div>
     </section>
     <?php include 'components/galeria.php'; ?>
+
+    <section class="max-w-7xl mx-auto text-center py-20">
+        <h3 class="bg-light__grey w-fit border-l-8 border-orange py-1 px-2 mb-4 mx-auto"> Que es lo que hacemos </h3>
+        <h2 class="text-2xl mb-5 md:mb-16 font-bold">COMPLEMENTA TU PÉRGOLA</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 m-6 place-items-center">
+            <div class="flex flex-col items-center">
+                <img src="<?php echo __ROOT__; ?>/public/img/nosotros/iconBarras.png" class="pb-2 items-center" >
+                <p>BARRAS DE BAR</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="<?php echo __ROOT__; ?>/public/img/nosotros/iconAsadores.png" class="pb-2 items-center" >
+                <p>ASADORES</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="<?php echo __ROOT__; ?>/public/img/nosotros/iconPaisajismo.png" class="pb-2 items-center">
+                <p>PAISAJISMO</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="<?php echo __ROOT__; ?>/public/img/nosotros/iconAudio.png" class="pb-2 items-center" >
+                <p>AUDIO Y VIDEO</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="<?php echo __ROOT__; ?>/public/img/nosotros/iconIlum.png" class="pb-2 items-center" >
+                <p>ILUMINACIÓN AMBIENTAL</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="<?php echo __ROOT__; ?>/public/img/nosotros/iconCanceleria.png" class="pb-2 items-center" >
+                <p>CANCELERÍA</p>
+            </div>
+
+        </div>
+    </section>
+
+    <?php include 'components/form.php'; ?>
 </main>
 <?php include 'partials/footer.php'; ?>

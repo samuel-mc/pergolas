@@ -1,5 +1,5 @@
 <!-- Desktop navbar -->
-<header class="hidden md:block">
+<header class="hidden lg:block">
     <!-- Top side -->
     <div class="bg-dark__grey">
         <div class="max-w-7xl mx-auto px-8 py-6 justify-between items-center flex">
@@ -35,8 +35,8 @@
                     <li class="px-5 text-sm"><a href="<?php echo __ROOT__; ?>nosotros">Acerca de nosotros</a></li>
                     <li class="px-5 text-sm"><a href="<?php echo __ROOT__; ?>servicios">Servicios</a></li>
                     <li class="px-5 text-sm"><a href="<?php echo __ROOT__; ?>multimedia">Nuestros proyectos</a></li>
-                    <li class="px-5 text-sm"><a href="<?php echo __ROOT__; ?>#contacto">Pérgolas</a></li>
-                    <li class="px-5 text-sm"><a href="<?php echo __ROOT__; ?>#contacto">Terrazas</a></li>
+                    <li class="px-5 text-sm"><a href="<?php echo __ROOT__; ?>pergolas">Pérgolas</a></li>
+                    <li class="px-5 text-sm"><a href="<?php echo __ROOT__; ?>terrazas">Terrazas</a></li>
                 </ul>
             </div>
             <div class="flex">
@@ -56,7 +56,7 @@
 
 
 <!-- Mobile navbar -->
-<div class="md:hidden">
+<div class="lg:hidden">
     <header class="bg-dark__grey py-2 px-5 lg:hidden w-full">
         <div class="flex justify-between">
             <img src="<?php echo __ROOT__; ?>/public/img/navLogo.png" class="">
@@ -79,8 +79,8 @@
                     <li class="text-md mb-4"><a href="<?php echo __ROOT__; ?>nosotros">Acerca de nosotros</a></li>
                     <li class="text-md mb-4"><a href="<?php echo __ROOT__; ?>servicios">Servicios</a></li>
                     <li class="text-md mb-4"><a href="<?php echo __ROOT__; ?>multimedia">Nuestros proyectos</a></li>
-                    <li class="text-md mb-4"><a href="<?php echo __ROOT__; ?>#contacto">Pérgolas</a></li>
-                    <li class="text-md mb-4"><a href="<?php echo __ROOT__; ?>#contacto">Terrazas</a></li>
+                    <li class="text-md mb-4"><a href="<?php echo __ROOT__; ?>pergolas">Pérgolas</a></li>
+                    <li class="text-md mb-4"><a href="<?php echo __ROOT__; ?>terrazas">Terrazas</a></li>
                 </ul>
             </div>
 

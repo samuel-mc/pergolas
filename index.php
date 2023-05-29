@@ -5,7 +5,7 @@ require 'flight/Flight.php';
 # Debug errors
 Flight::set('flight.log_errors', true);
 # Root route
-define('__ROOT__', "http://localhost/pergolas/");
+define('__ROOT__', "http://localhost:5000/Trabajo/Freelancer/Samuel/pergolas/");
 
 
 Flight::route('/', function () {
@@ -13,6 +13,15 @@ Flight::route('/', function () {
 });
 Flight::route('/nosotros', function () {
     Flight::render('nosotros.php');
+});
+Flight::route('/servicios', function () {
+    Flight::render('servicios.php');
+});
+Flight::route('/pergolas', function () {
+    Flight::render('pergolas.php');
+});
+Flight::route('/terrazas', function () {
+    Flight::render('terrazas.php');
 });
 
 #404
