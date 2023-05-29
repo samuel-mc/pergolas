@@ -23,7 +23,18 @@ Flight::route('/pergolas', function () {
 Flight::route('/terrazas', function () {
     Flight::render('terrazas.php');
 });
-
+Flight::route('/pergolasAcero', function () {
+    Flight::render('pergolasAcero.php');
+});
+Flight::route('/pergolasHibridaAcero', function () {
+    Flight::render('pergolasHibridaAcero.php');
+});
+Flight::route('/pergolasHibridaPremium', function () {
+    Flight::render('pergolasHibridaPremium.php');
+});
+Flight::route('/pergolasPremium', function () {
+    Flight::render('pergolasPremium.php');
+});
 #404
 Flight::map('notFound', function () {
     // Display custom 404 page
