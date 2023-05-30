@@ -3,7 +3,7 @@
     <!-- Top side -->
     <div class="bg-dark__grey">
         <div class="max-w-7xl mx-auto px-8 py-6 justify-between items-center flex">
-            <img src="<?php echo __ROOT__; ?>/public/img/navLogo.png" alt="">
+            <img src="<?php echo __ROOT__; ?>/public/img/navLogo.png" class="h-14">
             <div class="flex">
                 <div class="flex items-center mr-6">
                     <i class="fa-regular fa-clock text-orange mr-4"></i>
@@ -59,7 +59,7 @@
 <div class="lg:hidden">
     <header class="bg-dark__grey py-2 px-5 lg:hidden w-full">
         <div class="flex justify-between">
-            <img src="<?php echo __ROOT__; ?>/public/img/navLogo.png" class="">
+            <img src="<?php echo __ROOT__; ?>/public/img/navLogo.png" class="h-10">
             <button class="text-orange p-2 text-2xl" onclick="toggleShowMenu()">
                 <i class="fa-solid fa-bars"></i>
             </button>
