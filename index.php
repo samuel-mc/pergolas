@@ -35,6 +35,9 @@ Flight::route('/pergolasHibridaPremium', function () {
 Flight::route('/pergolasPremium', function () {
     Flight::render('pergolasPremium.php');
 });
+Flight::route('/contacto', function () {
+    Flight::render('contacto.php');
+});
 #404
 Flight::map('notFound', function () {
     // Display custom 404 page
